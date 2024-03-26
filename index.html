@@ -3,108 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Blog</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>login seite</title>
+    <script src="formjavascript.js"></script>
+    <link rel="stylesheet" href="styleform.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <div class="header1">
-          <h1 id="fl">Mein Blog</h1>
-          <span id="f2">Mein erster Blogbeitrag</span>
+    <form>
+      <div class="form-box">
+        <h1>Login</h1>
+
+        <div class="input-box">
+          <input
+            type="email"
+            placeholder="Ihre.email@mybolg.de"
+            required
+            id="email"
+          />
         </div>
-      </header>
-
-      <main>
-        <div id="bolg">
-          <div class="img_wbs">
-            <img src="download.png" alt="wbs coding School" width="800px" />
-          </div>
-
-          <article>
-            <div class="gh1">
-              <h2>
-                <a href="http://127.0.0.1:5500/My%20blog/index.html">My Blog</a>
-              </h2>
-              <span>Meine Erfahrungen bei der WBS Coding School</span>
-            </div>
-            <p>
-              Heute möchte ich meinen ersten Blogbeitrag mit euch teilen und
-              über meine Erfahrungen bei der WBS Coding School berichten. Als
-              ich mich dazu entschieden habe, einen Karrierewechsel in Richtung
-              Programmierung anzustreben, war ich zunächst unsicher, welche
-              Schule die richtige für mich sein würde. Nach intensiver Recherche
-              und vielen positiven Empfehlungen entschied ich mich schließlich
-              für die WBS Coding School, und ich kann mit Sicherheit sagen, dass
-              es die beste Entscheidung meines Lebens war. In den vergangenen
-              Monaten habe ich unglaublich viel gelernt und bin über mich selbst
-              hinausgewachsen.
-              <br />
-              Die WBS Coding School bietet nicht nur ein umfangreiches
-              Lehrprogramm, sondern auch eine unterstützende Gemeinschaft von
-              Dozenten und Mitstudierenden, die mich bei jedem Schritt meiner
-              Reise begleitet haben. Eines der ersten Dinge, die ich hier
-              gelernt habe, war die Bedeutung von Teamarbeit und Zusammenarbeit.
-              In unseren Projekten wurden wir ermutigt, in Teams zu arbeiten,
-              Ideen auszutauschen und gemeinsam Lösungen zu finden. Diese
-              Erfahrung hat nicht nur meine technischen Fähigkeiten verbessert,
-              sondern auch meine Kommunikations- und Problemlösungsfähigkeiten
-              gestä
-            </p>
-            <div class="gh2">
-              <h2>
-                <a
-                  href="https://www.wbscodingschool.com/?utm_source=adwords&utm_medium=ppc&utm_campaign&utm_term=wbs%20coding%20school&utm_content=rsb1&hsa_acc=1582954711&hsa_cam=8841345998&hsa_grp=92772141007&hsa_ad=501195315359&hsa_src=g&hsa_tgt=aud-966622536224%3Akwd-881760172036&hsa_kw=wbs%20coding%20school&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw2PSvBhDjARIsAKc2cgM1hkU9gxuSt1BubywQdiuvA2cBgmZisVjZ1qcDuOeERzWIFKeK4vMaAsD8EALw_wcB"
-                >
-                  Empfehlung</a
-                >
-              </h2>
-              <span>Meine Erfahrungen bei der WBS Coding School</span>
-            </div>
-            <p>
-              Abschließend möchte ich sagen, dass meine Zeit an der WBS Coding
-              School eine unglaublich lohnende Erfahrung war Ich habe nicht nur
-              neue Fähigkeiten erlernt, sondern auch neue Freunde gefunden und
-              mich persönlich weiterentwickelt. Ich empfehle die WBS Coding
-              School jedem, der ernsthaft daran interessiert ist, eine Karriere
-              in der Softwareentwicklung anzustreben. Die Schule bietet nicht
-              nur eine erstklassige Ausbildung, sondern auch eine unterstützende
-              Gemeinschaft und praxisorientierte Lehrmethoden, die es den
-              Studierenden ermöglichen, ihr volles Potenzial auszuschöpfen und
-              sich auf dem Arbeitsmarkt zu behaupten.
-            </p>
-
-            <!-- <h2> <a href="https://www.muenchen.travel/pois/berge-seen/landshut"></a>Landshut</h2>
-            <span>Blick über die Stadt Landshut</span>
-            <p>
-            In Landshut kann man sich sowohl über viel Geschichtliches informieren und historische Gebäude aus der Gotik und Renaissance besichtigen, als auch allerlei schöne Sachen aus der Neuzeit entdecken. So lässt es sich in der größten Stadt Niederbayerns auch ganz hervorragend in einem Café an der Isarpromenade sitzen.  Die Stadt wurde 1150 erstmals urkundlich erwähnt, die berühmte Burg Trausnitz, die über Landshut thront, wurde kurz darauf gegründet. Damals war sie eine der Hauptstädte der bayerischen Teilherzogtümer – und das lässt sich bis heute wunderbar an der historischen Architektur sehen. Besonders schön ist die Altstadt Landshut, die eine der besterhaltenen historischen Stadtkerne in ganz Deutschland ist und schon für das Weltkulturerbe nominiert wurde.</p> -->
-          </article>
+        <div class="input-box">
+          <input
+            type="password"
+            placeholder="password"
+            id="password"
+            required
+          />
+        </div>
+        <div class="rem">
+          <label><input type="checkbox" />Remember me</label>
+          <a href="#">Forget password</a>
         </div>
 
-        <aside>
-          <section>
-            <nav>
-              <h3>Wbs coding School</h3>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.wbscodingschool.com/?utm_source=adwords&utm_medium=ppc&utm_campaign&utm_term=wbs%20coding%20school&utm_content=rsb1&hsa_acc=1582954711&hsa_cam=8841345998&hsa_grp=92772141007&hsa_ad=501195315359&hsa_src=g&hsa_tgt=aud-966622536224%3Akwd-881760172036&hsa_kw=wbs%20coding%20school&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw2PSvBhDjARIsAKc2cgM1hkU9gxuSt1BubywQdiuvA2cBgmZisVjZ1qcDuOeERzWIFKeK4vMaAsD8EALw_wcB"
-                    >Wbs coding School Webseite</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    href="https://www.wbscodingschool.com/courses/?_gl=1*42bus1*_up*MQ..&gclid=Cj0KCQjw2PSvBhDjARIsAKc2cgM1hkU9gxuSt1BubywQdiuvA2cBgmZisVjZ1qcDuOeERzWIFKeK4vMaAsD8EALw_wcB"
-                    >OUR CODING BOOTCAMPS</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </section>
-        </aside>
-      </main>
-      <footer>&copy;2024 Mein Blog</footer>
-    </div>
+        <button class="btn" onclick="login()">Login</button>
+        <div class="register">
+          <p>Don't have an account? <a href="#">Register </a></p>
+        </div>
+      </div>
+    </form>
   </body>
 </html>
